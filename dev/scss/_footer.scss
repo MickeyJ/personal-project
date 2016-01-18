@@ -1,0 +1,18 @@
+
+#footer-contain{
+  color: white;
+
+  footer{
+    font-family: $proL;
+
+    ul{
+      text-align: center;
+      @extend %sml-pad-vert;
+
+      li{
+        display: inline;
+        @extend %sml-pad-lat;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+
+#top-contain{
+
+  color: white;
+
+  header{
+    @extend %sml-pad-vert;
+    float: left;
+
+  }
+
+  //nav{
+  //  float: right;
+  //  @extend %lrg-pad-vert;
+  //
+  //  ul{
+  //    text-align: right;
+  //
+  //    li{
+  //      display: inline;
+  //
+  //      a{
+  //        font-family: $proB;
+  //        font-size: 1.5em;
+  //        color: $green;
+  //        @extend %sml-pad-lat;
+  //        @include transition(color 0.2s);
+  //      }
+  //
+  //      a:hover{
+  //        color: $orng;
+  //      }
+  //    }
+  //  }
+  //}
+}
+

@@ -24,14 +24,23 @@ li { font-size: 1em; list-style: none; }
 
 span { font-size: 1em; }
 
+/** ----------------------------------------------------------- SHADOWS ----------------------------------------------------------- */
+/** ----------------------------------------------------------- GRADIENT ----------------------------------------------------------- */
+/** ----------------------------------------------------------- FLEX BOX ----------------------------------------------------------- */
+/** ----------------------------------------------------------- ROUNDED CORNERS ----------------------------------------------------------- */
+/** ----------------------------------------------------------- TRANSITION ----------------------------------------------------------- */
 @font-face { font-family: proL; src: url(../fonts/SourceSansPro-Light.ttf); }
 
 @font-face { font-family: proB; src: url(../fonts/SourceSansPro-Bold.ttf); }
 
+/* LARGE MARGIN */
+/* SMALL MARGIN */
 .box { margin: 1em; }
 
+/* LARGE PADDING */
 .box { padding: 1em; }
 
+/* SMALL PADDING */
 .btn-box .btn { padding: 0.5em; }
 
 body div.all-wrap #top-contain, #footer-contain footer ul li { padding-left: 0.5em; padding-right: 0.5em; }

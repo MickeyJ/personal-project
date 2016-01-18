@@ -1,0 +1,47 @@
+
+.btn-box{
+  width: 100%;
+
+  .btn{
+    font-family: $proB;
+    color: rgba(218, 218, 218, 0.82);
+    background: rgba(38, 38, 38, 0.7);
+    font-size: 1.3em;
+    outline: none;
+    @extend %sml-pad-box;
+    @include transition(color 0.2s);
+  }
+
+  .btn:hover{
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.83);
+  }
+
+  .pg-link{
+    display: none;
+    color: $green;
+    @include transition(color 0.2s);
+  }
+
+  .pg-link:hover{
+    color: $orng;
+  }
+
+}
+
+
+
+.next-pg,
+.next-btn{
+  float: right;
+  @include border-radius(10px 0 0 10px);
+}
+
+.back-pg,
+.back-btn{
+  display:none;
+  float: left;
+  @include border-radius(0 10px 10px 0);
+}
+
+
