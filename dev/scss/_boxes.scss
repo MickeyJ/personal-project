@@ -1,0 +1,32 @@
+
+.box{
+  width: calc(100% - 2em);
+  background: $fog-white;
+  @include border-radius(10px);
+  @extend %sml-marg-box;
+  @extend %lrg-pad-box;
+  text-align: center;
+
+  p{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2;
+  }
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+

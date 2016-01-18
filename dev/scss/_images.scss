@@ -1,0 +1,81 @@
+
+.bg-img-1{
+  background: url('../images/baby-1.jpg') no-repeat 70% 60%;
+  background-size: 150% auto;
+}
+
+.bg-img-2{
+  background: url('../images/home-studio-1.jpg') no-repeat 70% 75%;
+  background-size: 150% auto;
+
+}
+
+.bg-img-3{
+  background: url('../images/nols-packs.jpg') no-repeat 100% 30%;
+  background-size: 150% auto;
+
+
+}
+
+.bg-img-4{
+  background: url('../images/nols-group-8.jpg') no-repeat 10% 10%;
+  background-size: 150% auto;
+
+
+}
+
+.bg-img-5{
+  background: url('../images/ui-me-1.jpg') no-repeat 20% 30%;
+  background-size: 150% auto;
+
+
+}
+
+.bg-gif{
+  background: url('../images/future.gif') no-repeat 40% 30%;
+  background-size: 155%;
+
+}
+
+
+
+@media only screen and (max-width: 950px){
+
+  .bg-img-1{
+    background: url('../images/baby-1.jpg') no-repeat 70% 60%;
+    background-size: 200% auto;
+  }
+
+  .bg-img-2{
+    background: url('../images/home-studio-1.jpg') no-repeat 50% 80%;
+
+    background-size: 200% auto;
+  }
+
+  .bg-img-3{
+    background: url('../images/nols-packs.jpg') no-repeat 80% 30%;
+
+    background-size: 180% auto;
+
+  }
+
+  .bg-img-4{
+    background: url('../images/nols-group-8.jpg') no-repeat 30% 10%;
+
+    background-size: 200% auto;
+
+  }
+
+  .bg-img-5{
+    background: url('../images/ui-me-1.jpg') no-repeat 30% 20%;
+
+    background-size: 180% auto;
+
+  }
+
+  .bg-gif{
+    background: url('../images/future.gif') no-repeat 40% 30%;
+    background-size: 220% auto;
+  }
+
+}
