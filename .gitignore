@@ -1,5 +1,5 @@
 node_modules
 gulpfile.js
+.DS_Store
 dev/*
 .idea/*
-.DS_Store
