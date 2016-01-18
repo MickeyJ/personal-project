@@ -2,3 +2,4 @@ node_modules
 gulpfile.js
 dev/*
 .idea/*
+.DS_Store
